@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Montez', cursive;
+}
+
+img{
+   width: 100%;
+   height: 150px;
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
+}
+
+.carta{
+   width: 300px;
+   height: 430px;
+   border: 3px solid #8E3200;
+   border-radius: 10px;
+   background-color: #FFEBC1;
+}
+
+.carta .textos{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 20px;
+   border-top: 7px solid #A64B2A;
+}
+
+.carta span{
+   font-size: 2.5rem;
+   padding-top: 30px;
+   padding-bottom: 15px;
+}
+
+.carta p{
+   text-align: center;
+   font-size: 22px;
+}
+.carta .boton{
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+}
+.carta .boton button{
+   padding: 10px 30px;
+   background-color: #8E3200;
+   color: #FFEBC1;
+   border-radius: 100px;
+   font-size: 18px;
+}
